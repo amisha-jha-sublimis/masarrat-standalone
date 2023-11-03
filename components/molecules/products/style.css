@@ -1,0 +1,111 @@
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+.mainWrapper .prodList {
+  display: flex;
+  justify-content: space-between;
+}
+.mainWrapper .boxItem {
+  width: 420px;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  color: #050505;
+  background: #E9F7FD;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  flex-wrap: inherit;
+  position: relative;
+  padding: 20px 20px;
+  padding-bottom: 45px;
+}
+.mainWrapper .boxItem h5 {
+  font-size: 1.125rem;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.mainWrapper .boxItem ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mainWrapper .boxItem ul li {
+  width: 180px;
+}
+.mainWrapper .boxItem .item {
+  width: 180px;
+  height: 150px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  text-align: center;
+  position: relative;
+}
+.mainWrapper .boxItem .item p {
+  font-size: 0.75rem;
+  padding: 20px 6px 0;
+  font-weight: 700;
+  color: #000000;
+}
+.mainWrapper .boxItem .item:hover {
+  border: 1px solid #b8dded;
+}
+.mainWrapper .boxItem .viewMorebtn {
+  position: absolute;
+  bottom: 5px;
+  padding: 10px 0;
+  width: 200px;
+  margin: 0 0px;
+}
+.mainWrapper .boxItem .viewMorebtn .viewMoreLink {
+  font-size: 1rem;
+  color: #0377A8;
+  text-decoration: underline;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0 10px;
+  width: 100%;
+}
+.mainWrapper .boxItem.singleImg .item {
+  width: 100%;
+}
+.mainWrapper .showThreeImg {
+  margin: 0;
+}
+.mainWrapper .showThreeImg .item {
+  width: 119px;
+  height: 116px;
+}
+.mainWrapper .showThreeImg + .showThreeImg {
+  margin-left: 20px;
+}
+.mainWrapper .showFourImg ul li:nth-child(3) {
+  width: 100%;
+}
+.mainWrapper .showFiveImg ul li:last-child,
+.mainWrapper .showFourImg ul li:last-child {
+  width: 100%;
+}
+.mainWrapper .singleImg {
+  width: 315px;
+}
+.mainWrapper .twoImg {
+  width: 640px;
+  border-radius: 5px;
+}
+.mainWrapper .twoImg ul {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.mainWrapper .twoImg ul li.item {
+  width: 290px;
+  height: 199px;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

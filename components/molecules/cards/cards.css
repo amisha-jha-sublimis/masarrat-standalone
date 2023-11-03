@@ -1,0 +1,106 @@
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+.mainCards {
+  display: flex;
+}
+.mainCards .cards {
+  margin-bottom: 20px;
+  margin: 8px 8px;
+}
+
+.sliderWapper {
+  width: 100%;
+  margin: auto;
+}
+
+.cards {
+  width: 228px;
+  height: auto;
+  border: 1px solid #DCDADA;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.cards:hover {
+  box-shadow: 1px 1px 5px #ddd;
+}
+.cards .whiteList {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  background: white;
+  padding: 4px;
+  border-radius: 20px;
+  z-index: 1;
+}
+.cards .whiteList svg {
+  color: #0F4A8A;
+  cursor: pointer;
+  font-size: 18px;
+}
+.cards .whiteList svg.active {
+  fill: #0F4A8A;
+}
+.cards .cardsImg {
+  height: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cards .cardsImg figure {
+  width: 100%;
+}
+.cards .cardsImg figure img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cards .cardsImg a {
+  outline: none;
+}
+.cards .cardsImg a .productImg {
+  margin: auto;
+  outline: none;
+}
+.cards .cardsInfo {
+  padding: 10px 10px;
+  width: 100%;
+}
+.cards .cardsInfo h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 20px;
+  height: 50px;
+  font-weight: 500;
+}
+.cards .cardsInfo .priceAddCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .cardsInfo .priceAddCart span:first-child {
+  font-size: 1rem;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.cards .cardsInfo .priceAddCart span:first-child img:first-child {
+  margin-right: 5px;
+}
+
+.default-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.default-card .cards + .cards {
+  margin-left: 20px;
+}/*# sourceMappingURL=cards.css.map */

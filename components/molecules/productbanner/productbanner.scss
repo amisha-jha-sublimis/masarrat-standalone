@@ -1,0 +1,79 @@
+@import '../../../assets/Scss/variables';
+@import '../../../assets/Scss/mixins';
+
+ .add-banner-one{
+    .add-bannerImage-one{
+        margin-bottom: 40px;
+        position: relative;
+        figure{
+            position: relative;
+            img{
+                width: 100%;
+            }
+        }
+        figcaption{
+            position: absolute;
+            top: -40%;
+            right: 24%;
+            transform: translate(50%, 50%);
+            width: 33.5%;
+            .addData{
+                width: 457px;
+                h2{
+                    font-family: 'Glacial Indifference';
+                    font-size: 45px;
+                    color: $ColorBlack;
+                    font-weight: bold;
+                    width: 337px;
+                    margin-left: 42px;
+                }
+                h4{
+                    font-family: 'Glacial Indifference';
+                    font-size: 44px;
+                    font-weight: bold;
+                    color: #FBEA74;
+                    display: flex;
+                    align-items: center;
+                    background-color: $ColorBlack;
+                    height: 68px; 
+                    margin: 20px 0;                
+                    border-bottom-right-radius: 33px;
+                    border-top-right-radius: 33px;
+                    span{
+                        font-family: 'Glacial Indifference';
+                        font-size: 25px;
+                        color: #FBEA74;
+                        margin-right: 10px;
+                        margin-left: 42px;
+                    }
+                }
+                .btn-primary{
+                    @include btnstyle;
+                    margin-top: 0;
+                    margin-left: 42px;
+                    line-height: 50px;
+                    span{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                        text-transform: capitalize;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &:hover{
+                        @include btnstyleHover;
+                        line-height: 50px;
+                        span{
+                            color: #0F4A8A;
+                        }
+                    }
+                }
+            }
+            p{
+                color: #FFFFFF;
+                font-size: 12px;
+                font-weight: 600;
+                text-align: right;
+            }
+        }
+    }
+}

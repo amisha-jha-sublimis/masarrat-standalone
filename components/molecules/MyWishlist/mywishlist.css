@@ -1,0 +1,13 @@
+.my_wishlist.myaccWislist .mainCards .cards .whiteList {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  background-color: unset !important;
+  padding: 0 !important;
+}
+.my_wishlist.myaccWislist .mainCards .cards .whiteList .nextui-c-ftJsHY img {
+  top: 4px;
+  right: -10px;
+  position: absolute;
+  padding: 0;
+}/*# sourceMappingURL=mywishlist.css.map */

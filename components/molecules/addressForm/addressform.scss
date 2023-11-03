@@ -1,0 +1,134 @@
+.address-form {
+    .topheading {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+
+        h4 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #043F7D;
+        }
+
+        h6 {
+            font-size: 14px;
+            color: #676666;
+            margin-top: auto;
+        }
+    }
+
+    .office-address {
+
+            form {
+                margin-bottom: 2rem;
+                .form-row {
+                    list-style: none;
+                    display: flex;
+                    padding: 0;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .form-group {
+                        margin-bottom: 1rem;
+                        width: 32%;
+                        label {
+                            text-transform: capitalize;
+                            font-size: 0.75rem;
+                            font-weight: 600;
+                            // display: block;
+                            font-family: 'Montserrat';
+                            color: $ColorBlack;
+                            padding-bottom: 6px;
+                        }
+
+                        .form-control {
+                            border-radius: 5px;
+                            border: 1px solid #B6B5B5;
+                            height: 40px;
+                            // width: 300px;
+                            margin-right: 5px;padding-left:10px;
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 0.75rem;
+
+                            &::placeholder {
+                                font-size: 0.75rem;
+                                color: #676666;
+                            }
+
+                            &:disabled {
+                                background-color: #E7E7E7;
+                            }
+
+                            &:focus {
+                                box-shadow: none;
+                            }
+                        }
+
+                        p {
+                            &.form-error {
+                                color: red;
+                                font-size: 0.8rem;
+                                font-weight: 700;
+                                padding-top: 0.6rem;
+                            }
+                        }
+
+                        .form-select {
+                            border-radius: 5px;
+                            border: 1px solid #B6B5B5;
+                            height: 40px;
+                            font-size: 0.75rem;
+                            color: #676666;
+                            // width: 300px;
+                            background-image: url('../../../assets/images/caret-down-solid.svg');
+                            background-size: 12px;
+                            background-position: top 9px right 6px;
+                            font-family: 'Montserrat';
+                            appearance: none;
+
+                            &::placeholder {
+                                font-size: 0.75rem;
+                                color: #7F7F7F;
+                            }
+
+                        }
+                        
+                    }
+                    &:last-child{margin-bottom: 1.5rem;}
+                }
+            }
+         
+           .address-review {
+                .addresses {
+                    display: flex;
+                    margin-bottom: 0.5rem;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .address-box {
+                        border-radius: 5px;
+                        border: 1px solid #E6E6E6;
+                        padding: 1rem;
+                        width: 30%;
+                        margin-bottom: 1rem;
+                        margin-right: 1rem;
+
+                        h4{font-size: 1rem;font-weight: 500;color: #000;}
+
+                        p{font-size: 14px;font-weight: 300;line-height: 23px;margin-bottom: 1rem;}
+
+                        .address-span{color: #0F4A8A;line-height: 23px;
+                            span{&:first-child{margin-right: 0.5rem; } 
+                            &:last-child{margin-left: 0.5rem;}}
+                            span{font-weight: 400; 
+                            cursor: pointer;    
+                            &.or{color: #E8E5E5;}
+                        }
+                        }
+                    }    
+                }           
+           } 
+
+    }
+
+
+}

@@ -1,0 +1,106 @@
+.cart-nav {
+  top: 0;
+  right: 0;
+  width: 0vh;
+  max-width: 551px;
+  z-index: 1000;
+  height: 100vh;
+  margin-right: auto;
+  position: fixed;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border-left: 0;
+}
+.cart-nav .btn-close {
+  display: block;
+  position: inherit;
+  filter: invert(20%) sepia(100%) saturate(958%) hue-rotate(183deg) brightness(102%) contrast(96%);
+}
+.cart-nav.site-nav--open {
+  width: 50vw;
+  transition: width 1s;
+  z-index: 9999;
+}
+.cart-nav .topheader {
+  background-color: #E9F7FD;
+  color: #0F4A8A;
+  text-transform: uppercase;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-nav .topheader h2 {
+  color: #0F4A8A;
+  margin-bottom: 0;
+  font-size: 1.563rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.cart-nav .topheader h2 span {
+  font-weight: 300;
+}
+.cart-nav .cart-body {
+  height: 100%;
+  overflow-y: auto;
+}
+.cart-nav .cart-body .product-price {
+  padding: 1.375rem 1.875rem 0rem;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 0rem;
+}
+.cart-nav .cart-body .product-price li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 1.25rem;
+}
+.cart-nav .cart-body .product-price li h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.cart-nav .cart-body .product-details {
+  margin: 0;
+  height: 800px;
+  overflow-y: scroll;
+}
+.cart-nav .cart-body .cart-footer {
+  height: 100px;
+  padding: 1.375rem 1.875rem 1.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -3px 6px -5px #000;
+  background: #fff;
+}
+.cart-nav .cart-body .cart-footer a .btn-secondary {
+  margin-right: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #0F4A8A;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #0F4A8A;
+  display: inline-block;
+  padding: 11px 18px;
+  outline: none;
+}
+.cart-nav .cart-body .cart-footer a .backGround {
+  background: #0F4A8A;
+  color: #fff;
+}
+.cart-nav .cart-body .cart-footer .total-prize {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cart-nav .cart-label .tag-wrap {
+  top: -15px;
+}/*# sourceMappingURL=style.css.map */

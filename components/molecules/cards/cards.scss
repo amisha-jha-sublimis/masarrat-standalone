@@ -1,0 +1,117 @@
+@import '../../../assets/Scss/variables';
+@import '../../../assets/Scss/mixins';
+
+.mainCards {
+    display: flex;
+
+    .cards {
+        margin-bottom: 20px;
+        margin: 8px 8px;
+    }
+}
+
+.sliderWapper {
+    width: 100%;
+    margin: auto;
+}
+
+.cards {
+    width: 228px;
+    height: auto;
+    border: 1px solid #DCDADA;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        box-shadow: 1px 1px 5px #ddd;
+    }
+
+    .whiteList {
+        position: absolute;
+        right: 5px;
+        top: 2px;
+        background: white;
+        padding: 4px;
+        border-radius: 20px;
+        z-index: 1;
+
+        svg {
+            color: #0F4A8A;
+            cursor: pointer;
+            font-size: 18px;
+
+            &.active {
+                fill: #0F4A8A;
+            }
+        }
+    }
+
+    .cardsImg {
+        height: 255px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        figure {
+            width: 100%;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        a {
+            outline: none;
+
+            .productImg {
+                margin: auto;
+                outline: none;
+            }
+        }
+    }
+
+    .cardsInfo {
+        padding: 10px 10px;
+        width: 100%;
+
+        h5 {
+            font-family: $BaseFontFamily;
+            font-size: 0.875rem;
+            line-height: 20px;
+            height: 50px;
+            font-weight: 500;
+        }
+
+        .priceAddCart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span:first-child {
+                font-size: 1rem;
+                color: $ColorBlack;
+                font-family: 'Montserrat';
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+
+                img:first-child {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.default-card {
+    display: flex;
+    flex-wrap: wrap;
+    .cards {
+        &+.cards {
+            margin-left: 20px;
+        }
+    }
+}

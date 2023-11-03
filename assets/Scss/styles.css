@@ -1,0 +1,2117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "HKGrotesk-Bold";
+  src: url("../fonts/HKGrotesk-Bold.woff2") format("woff2"), url("../fonts/HKGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-Black";
+  src: url("../fonts/HKGrotesk-Black.woff2") format("woff2"), url("../fonts/HKGrotesk-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-BoldItalic";
+  src: url("../fonts/HKGrotesk-BoldItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-BoldLegac";
+  src: url("../fonts/HKGrotesk-BoldLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldLegacy.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-BoldLegacyItalic";
+  src: url("../fonts/HKGrotesk-BoldLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldLegacyItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-Italic";
+  src: url("../fonts/HKGrotesk-Italic.woff2") format("woff2"), url("../fonts/HKGrotesk-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-LegacyItalic";
+  src: url("../fonts/HKGrotesk-LegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LegacyItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-ExtraBold";
+  src: url("../fonts/HKGrotesk-ExtraBold.woff2") format("woff2"), url("../fonts/HKGrotesk-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-Medium";
+  src: url("../fonts/HKGrotesk-Medium.woff2") format("woff2"), url("../fonts/HKGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-LightLegacyItalic";
+  src: url("../fonts/HKGrotesk-LightLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LightLegacyItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-LightItalic";
+  src: url("../fonts/HKGrotesk-LightItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-LightLegacy";
+  src: url("../fonts/HKGrotesk-LightLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-LightLegacy.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-Light";
+  src: url("../fonts/HKGrotesk-Light.woff2") format("woff2"), url("../fonts/HKGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-MediumLegacyItalic";
+  src: url("../fonts/HKGrotesk-MediumLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumLegacyItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-Regular";
+  src: url("../fonts/HKGrotesk-Regular.woff2") format("woff2"), url("../fonts/HKGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-RegularLegacy";
+  src: url("../fonts/HKGrotesk-RegularLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-RegularLegacy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-MediumItalic";
+  src: url("../fonts/HKGrotesk-MediumItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-MediumLegacy";
+  src: url("../fonts/HKGrotesk-MediumLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumLegacy.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-SemiBoldLegacyItalic";
+  src: url("../fonts/HKGrotesk-SemiBoldLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldLegacyItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-SemiBoldItalic";
+  src: url("../fonts/HKGrotesk-SemiBoldItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-SemiBold";
+  src: url("../fonts/HKGrotesk-SemiBold.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HKGrotesk-SemiBoldLegacy";
+  src: url("../fonts/HKGrotesk-SemiBoldLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldLegacy.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url("../fonts/NunitoSans-Regular.woff") format("woff2"), url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url("../fonts/NunitoSans-Bold.woff") format("woff2"), url("../fonts/NunitoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NunitoSans-SemiBold";
+  src: url("../fonts/NunitoSans-SemiBold.woff") format("woff2"), url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+.Toastify__toast-container {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.btn-primary {
+  border: 0;
+  width: 167px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 35px;
+  background-color: #0F4A8A;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: "Montserrat";
+}
+.btn-primary span {
+  color: #000;
+}
+
+.btn-primary:hover {
+  border: 0;
+  width: 167px;
+  height: 50px;
+  border-radius: 30px;
+  line-height: 35px;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #0F4A8A;
+}
+
+.pagesLink {
+  padding-top: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.pagesLink a.activePg {
+  color: #0F4A8A;
+}
+
+.loginSec {
+  height: 100vh;
+  width: 100vw;
+}
+.loginSec .mainSec {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 94%;
+}
+.loginSec .mainSec .logoMassarat img {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  z-index: 1;
+}
+.loginSec .mainSec .leftSec,
+.loginSec .mainSec .rigthSec {
+  width: 50%;
+}
+.loginSec .mainSec .leftSec img {
+  width: 100%;
+  height: 100%;
+}
+.loginSec .mainSec .rigthSec {
+  background-color: #E9F7FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginSec .mainSec .rigthSec .loginForm,
+.loginSec .mainSec .rigthSec .otpverifyPage {
+  width: 375px;
+  height: 324px;
+  text-align: center;
+}
+.loginSec .mainSec .rigthSec .loginForm h3,
+.loginSec .mainSec .rigthSec .otpverifyPage h3 {
+  font-size: 2.188rem;
+  color: #0F4A8A;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.loginSec .mainSec .rigthSec .loginForm h3.regNow,
+.loginSec .mainSec .rigthSec .otpverifyPage h3.regNow {
+  margin-bottom: 10px;
+}
+.loginSec .mainSec .rigthSec .loginForm .easyLogin,
+.loginSec .mainSec .rigthSec .otpverifyPage .easyLogin {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 32px;
+}
+.loginSec .mainSec .rigthSec .loginForm p,
+.loginSec .mainSec .rigthSec .otpverifyPage p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.loginSec .mainSec .rigthSec .loginForm p a,
+.loginSec .mainSec .rigthSec .otpverifyPage p a {
+  color: #0377A8;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.loginSec .mainSec .rigthSec .loginForm p.regTop,
+.loginSec .mainSec .rigthSec .otpverifyPage p.regTop {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.loginSec .mainSec .rigthSec .loginForm .socialIcon,
+.loginSec .mainSec .rigthSec .otpverifyPage .socialIcon {
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  margin-bottom: 30px;
+}
+.loginSec .mainSec .rigthSec .loginForm .socialIcon img,
+.loginSec .mainSec .rigthSec .otpverifyPage .socialIcon img {
+  width: 30px;
+}
+.loginSec .mainSec .rigthSec .loginForm div.line-between,
+.loginSec .mainSec .rigthSec .otpverifyPage div.line-between {
+  border: 1px solid #B7B7B7;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.loginSec .mainSec .rigthSec .loginForm div.line-between span,
+.loginSec .mainSec .rigthSec .otpverifyPage div.line-between span {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 80px;
+  background: #e9f7fd;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.loginSec .mainSec .rigthSec .loginForm form,
+.loginSec .mainSec .rigthSec .otpverifyPage form {
+  text-align: left;
+}
+.loginSec .mainSec .rigthSec .loginForm form label,
+.loginSec .mainSec .rigthSec .otpverifyPage form label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.loginSec .mainSec .rigthSec .loginForm form input,
+.loginSec .mainSec .rigthSec .otpverifyPage form input {
+  width: 100%;
+  border: 1px solid #B6B5B5;
+  border-radius: 4px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  background: #fff;
+}
+.loginSec .mainSec .rigthSec .loginForm form button,
+.loginSec .mainSec .rigthSec .otpverifyPage form button {
+  width: 100%;
+  background: #0F4A8A;
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.875rem;
+  font-family: "Poppins", sans-serif;
+}
+.loginSec .footerSec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.loginSec .footerSec p {
+  font-family: "NunitoSans-Regular";
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.loginSec .footerSec p b {
+  font-family: "NunitoSans-Regular";
+}
+
+.loginSec .mainSec .rigthSec .otpverifyPage form label {
+  margin-top: 0;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form .inputFields {
+  border: none;
+  margin: 0px;
+  text-align: left;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form .inputFields input {
+  width: calc(100% - 313px);
+  border-radius: inherit;
+  text-align: center;
+  margin-top: 0;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form .inputFields input:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form .inputFields input:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form p {
+  margin-top: 30px;
+  font-size: 0.875rem;
+  font-family: "Montserrat";
+  color: #000000;
+  font-weight: 500;
+}
+.loginSec .mainSec .rigthSec .otpverifyPage form p span {
+  color: #0377A8;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.sliderWapper,
+.bestselling {
+  margin-bottom: 2rem;
+}
+.sliderWapper h1,
+.bestselling h1 {
+  text-align: center;
+  color: #0F4A8A;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.sliderWapper p,
+.bestselling p {
+  color: #000;
+  line-height: 2;
+  text-align: center;
+}
+.sliderWapper .viewallBtn,
+.bestselling .viewallBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 10px;
+}
+.sliderWapper .viewallBtn button,
+.bestselling .viewallBtn button {
+  padding: 13px 27px;
+  border-radius: 22px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.tag-wrap {
+  filter: drop-shadow(6px 4px 1px #E0E0E0);
+  position: absolute;
+  left: 0px;
+}
+.tag-wrap .tags {
+  -webkit-clip-path: polygon(100% 0%, 91% 48%, 100% 100%, 1% 100%, 0% 0%);
+          clip-path: polygon(100% 0%, 91% 48%, 100% 100%, 1% 100%, 0% 0%);
+  background: #00A0E3;
+  width: auto;
+  position: absolute;
+  left: 0;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0px 11px 18px black;
+}
+
+.site-header .navigate {
+  flex-direction: row;
+}
+.site-header .navigate .container {
+  position: relative;
+}
+.site-header .navigate .container .top-navigate {
+  width: 82%;
+  position: absolute;
+  top: 10px;
+  left: 16.5%;
+}
+.site-header .navigate .site-nav {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+}
+.site-header .navigate .bulk_order {
+  position: absolute;
+  z-index: 99999;
+  right: 18px;
+  bottom: 17px;
+  color: #FCEC2D;
+}
+.site-header .navigate .bulk_order span {
+  font-weight: 500;
+}
+.site-header.shadow {
+  height: 180px;
+}
+.site-header .site-header__actions .dropdown {
+  padding-top: 7px;
+}
+.site-header .site-header__actions .dropdown .dropdown-toggle {
+  background: transparent;
+  border: none;
+  color: #0F4A8A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  padding: 0;
+  margin: 0px 10px;
+}
+.site-header .site-header__actions .dropdown .dropdown-toggle:focus {
+  box-shadow: none;
+}
+.site-header .site-header__actions .dropdown .dropdown-toggle span {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #0F4A8A;
+}
+.site-header .site-header__actions .dropdown .dropdown-toggle img {
+  margin-bottom: 6px;
+}
+.site-header .site-header__actions .dropdown .dropdown-toggle::after {
+  position: absolute;
+  right: -11px;
+  bottom: 8px;
+  border-top: 0.35em solid;
+  border-right: 0.35em solid transparent;
+  border-left: 0.35em solid transparent;
+}
+.site-header .site-header__actions .dropdown .dropdown-menu.show {
+  z-index: 10;
+  background: #E9F7FD;
+  box-shadow: 1px 4px 10px rgba(30, 28, 28, 0.2196078431);
+  transform: translate(-40px, 68px);
+}
+.site-header .site-header__actions .dropdown .dropdown-item {
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  margin: 0;
+}
+.site-header .site-header__actions .dropdown .dropdown-item:hover {
+  border: 1px solid #00A0E3;
+  background: transparent;
+}
+.site-header .site-header__actions .dropdown .dropdown-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+.site-header .site-header__actions .dropdown .dropdown-item span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  line-height: normal;
+}
+
+.accordion-button {
+  padding: 1rem 1.25rem 1rem 0;
+}
+
+.mainSection .error-message {
+  top: 70px;
+  padding-top: 0;
+}
+.mainSection .backbutton {
+  position: absolute;
+  right: 20px;
+  top: 85px;
+  border: 1px solid #00A0E3;
+  color: #00A0E3;
+  padding: 11px 33px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #00A0E3;
+  font-weight: 600;
+}
+.mainSection .main-page {
+  padding-top: 150px;
+}
+.mainSection .requestquote {
+  background-color: #E9F7FD;
+  font-family: "Montserrat";
+  color: #000000;
+  position: relative;
+}
+.mainSection .requestquote .pagesLink {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.mainSection .requestquote .pagesLink .activePg {
+  color: #0F4A8A;
+}
+.mainSection .requestquote .bg-ovelay img {
+  mix-blend-mode: color-burn;
+  width: 100%;
+  filter: saturate(60%) saturate(100%) contrast(100%);
+  height: 100vh;
+}
+.mainSection .requestquote .formSection {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 651px;
+  height: 696px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.21);
+}
+.mainSection .requestquote .formSection h1 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  margin-bottom: 20px;
+}
+.mainSection .requestquote .formSection p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.mainSection .requestquote .formSection p:nth-child(3) {
+  text-align: right;
+  font-size: 0.75rem;
+  color: #676666;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.mainSection .requestquote .formSection form ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mainSection .requestquote .formSection form ul li {
+  width: 49%;
+}
+.mainSection .requestquote .formSection form ul li:first-child, .mainSection .requestquote .formSection form ul li:last-child {
+  width: 100%;
+}
+.mainSection .requestquote .formSection form ul li:nth-child(2) {
+  display: flex;
+}
+.mainSection .requestquote .formSection form ul li:nth-child(2) select {
+  width: 52px;
+  padding: 3px;
+}
+.mainSection .requestquote .formSection form ul li:nth-child(2) input {
+  margin-top: 14px;
+  margin-left: 5px;
+  width: 230px;
+}
+.mainSection .requestquote .formSection form ul li label {
+  font-size: 0.875rem;
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+.mainSection .requestquote .formSection form ul li input,
+.mainSection .requestquote .formSection form ul li textarea,
+.mainSection .requestquote .formSection form ul li select {
+  border: 1px solid #C8C7C7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 10px 7.8px;
+  height: 45px;
+}
+.mainSection .requestquote .formSection form ul li input ::-moz-placeholder, .mainSection .requestquote .formSection form ul li textarea ::-moz-placeholder, .mainSection .requestquote .formSection form ul li select ::-moz-placeholder {
+  color: #676666;
+}
+.mainSection .requestquote .formSection form ul li input ::placeholder,
+.mainSection .requestquote .formSection form ul li textarea ::placeholder,
+.mainSection .requestquote .formSection form ul li select ::placeholder {
+  color: #676666;
+}
+.mainSection .requestquote .formSection form ul li select {
+  font-weight: 500;
+  color: #000000;
+}
+.mainSection .requestquote .formSection form ul li select option {
+  color: #000000;
+}
+.mainSection .requestquote .formSection form ul li input:disabled,
+.mainSection .requestquote .formSection form ul li select:disabled {
+  background: url("../../assets/images/caret-down-solid.svg") no-repeat, #F9F9F9;
+  background-size: 12px;
+  background-position: top 9px right 6px;
+}
+.mainSection .requestquote .formSection form ul li textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  height: 80px;
+}
+.mainSection .requestquote .formSection form ul li select {
+  border: 1px solid #C8C7C7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url("../../assets/images/caret-down-solid.svg") no-repeat;
+  background-size: 12px;
+  background-position: top 9px right 6px;
+}
+.mainSection .requestquote .formSection form .submitBtn {
+  text-align: center;
+}
+.mainSection .requestquote .formSection form .submitBtn button {
+  background: #0F4A8A;
+  color: #fff;
+  padding: 12px 42px;
+  font-size: 0.875rem;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.mainSection .requestquote .formSection form .submitBtn button:hover {
+  background: #fff;
+  border: 1px solid #0F4A8A;
+  color: #0F4A8A;
+}
+
+.thankyouSec,
+.afterregisterthankyou {
+  background-color: #E9F7FD;
+}
+.thankyouSec .pagesLink,
+.afterregisterthankyou .pagesLink {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.thankyouSec .pagesLink a.activePg,
+.afterregisterthankyou .pagesLink a.activePg {
+  color: #0F4A8A;
+}
+.thankyouSec .bg-ovelay img,
+.afterregisterthankyou .bg-ovelay img {
+  color: transparent;
+  mix-blend-mode: color-burn;
+  width: 100%;
+  filter: saturate(60%) saturate(100%) contrast(100%);
+}
+.thankyouSec .mainSec,
+.afterregisterthankyou .mainSec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 651px;
+  height: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000000;
+  padding: 50px 94px;
+}
+.thankyouSec .mainSec h5,
+.afterregisterthankyou .mainSec h5 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.thankyouSec .mainSec p,
+.afterregisterthankyou .mainSec p {
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 2;
+  color: #000000;
+  font-weight: 600;
+}
+.thankyouSec .mainSec button,
+.afterregisterthankyou .mainSec button {
+  background: #0F4A8A;
+  color: #fff;
+  padding: 11px 35px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+}
+
+.afterregisterthankyou .mainSec {
+  padding: 50px !important;
+  text-align: center !important;
+}
+.afterregisterthankyou h5 {
+  padding-top: 30px !important;
+  padding-bottom: 0 !important;
+  line-height: 50px !important;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  line-height: normal;
+}
+
+.accordion-button {
+  padding: 1rem 1.25rem 1rem 0;
+}
+
+.main-page {
+  padding-top: 50px;
+}
+.main-page .top-header {
+  background-color: #F5F5F5;
+  height: 200px;
+  padding-top: 20px;
+}
+.main-page .top-header .breadcrumbs .breadcrumb {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0;
+}
+.main-page .top-header .info {
+  position: relative;
+}
+.main-page .top-header .info h2 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  padding-top: 30px;
+}
+.main-page .top-header .info .halfImageCircle {
+  position: absolute;
+  top: 57px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-page .middleText {
+  padding-top: 30px;
+}
+.main-page .middleText h4 {
+  font-size: 1.875rem;
+  color: #0F4A8A;
+  font-weight: bold;
+  width: 630px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 55px;
+}
+.main-page .secondSec {
+  padding-top: 35px;
+}
+.main-page .secondSec .productInfo {
+  width: 930px;
+  margin: 0 auto;
+}
+.main-page .secondSec .productInfo ul {
+  display: flex;
+  align-items: center;
+}
+.main-page .secondSec .productInfo ul li .text p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+.main-page .thirdSec {
+  padding-top: 30px;
+  margin-bottom: 170px;
+}
+.main-page .thirdSec .productData ul {
+  display: flex;
+  align-items: center;
+}
+.main-page .thirdSec .productData ul li .proText {
+  margin-left: 35px;
+}
+.main-page .thirdSec .productData ul li .proText h6 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  margin-bottom: 20px;
+}
+.main-page .thirdSec .productData ul li .proText h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.main-page .thirdSec .productData ul li .proText p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 32px;
+}
+.main-page .fourthSec {
+  position: relative;
+  margin-top: 50px;
+}
+.main-page .fourthSec .featuresCard {
+  position: absolute;
+  top: -115px;
+}
+.main-page .fourthSec .featuresCard ul {
+  display: flex;
+}
+.main-page .fourthSec .featuresCard ul li {
+  margin-right: 19px;
+}
+.main-page .fourthSec .featuresCard ul li:last-child {
+  margin-right: 0;
+}
+.main-page .fourthSec .featuresCard ul li .card {
+  width: 243px;
+  height: 200px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.main-page .fourthSec .featuresCard ul li .card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.main-page .fourthSec .featuresCard ul li .card a img {
+  margin-bottom: 1rem;
+  width: 60px;
+  height: auto;
+}
+.main-page .fourthSec .featuresCard ul li .card a span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  display: block;
+}
+.main-page .fifthSec {
+  padding-top: 30px;
+  background-color: #E9F7FD;
+  height: 583px;
+}
+.main-page .fifthSec .mission {
+  width: 1145px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.main-page .fifthSec .mission ul {
+  display: flex;
+}
+.main-page .fifthSec .mission ul li .missionText {
+  margin-left: 64px;
+}
+.main-page .fifthSec .mission ul li .missionText img {
+  margin-bottom: 20px;
+}
+.main-page .fifthSec .mission ul li .missionText h6 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  margin-bottom: 20px;
+}
+.main-page .fifthSec .mission ul li .missionText h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.main-page .fifthSec .mission ul li .missionText p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  line-height: 32px;
+}
+.main-page .sixhSec {
+  margin-bottom: 40px;
+}
+.main-page .sixhSec .info {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.main-page .sixhSec .info h4 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  margin-bottom: 30px;
+}
+.main-page .sixhSec .info p {
+  font-weight: 500;
+  color: #000000;
+  line-height: 32px;
+}
+.main-page .sixhSec .card {
+  color: #000000;
+  width: 409px;
+  height: 228px;
+  padding: 30px;
+}
+.main-page .sixhSec .card img {
+  margin-bottom: 20px;
+}
+.main-page .sixhSec .card h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.main-page .sixhSec .card p {
+  color: #676666;
+  font-weight: 500;
+  line-height: 32px;
+}
+.main-page .sevenSec .banner {
+  height: auto;
+  margin-bottom: 0;
+}
+.main-page .sevenSec .banner .bannerimage {
+  margin-bottom: 0;
+}
+
+.trackorderEmpty {
+  position: relative;
+}
+.trackorderEmpty .breadcrumbs .breadcrumb {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.trackorderEmpty h2 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+}
+.trackorderEmpty .empty-info {
+  margin-top: 14px;
+  margin-bottom: 84px;
+  text-align: center;
+}
+.trackorderEmpty .empty-info p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 30px 0;
+}
+.trackorderEmpty .empty-info .btn-shopnow {
+  width: 165px;
+  height: 40px;
+  background-color: #0F4A8A;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+}
+
+.trackorder {
+  position: relative;
+}
+.trackorder .breadcrumbs .breadcrumb {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.trackorder h2 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+}
+.trackorder .track-order {
+  margin-bottom: 84px;
+}
+.trackorder .track-order table thead tr th {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 15px;
+}
+.trackorder .track-order table tbody tr td {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 23px;
+  vertical-align: middle;
+}
+.trackorder .track-order table tbody tr td span {
+  color: #000000;
+  font-weight: 500;
+}
+.trackorder .track-order table tbody tr td img {
+  margin-left: 5px;
+}
+.trackorder .track-order table tbody tr td .btn-trackOrder {
+  width: 165px;
+  height: 40px;
+  background-color: #0F4A8A;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  color: white;
+}
+
+.trackorderresult {
+  position: relative;
+}
+.trackorderresult .breadcrumbs .breadcrumb {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.trackorderresult .track-result {
+  padding: 0 182px;
+  margin-bottom: 50px;
+}
+.trackorderresult .track-result .top-info {
+  display: flex;
+  justify-content: space-between;
+}
+.trackorderresult .track-result .top-info h2 {
+  font-size: 2.188rem;
+  font-weight: bold;
+  color: #0F4A8A;
+}
+.trackorderresult .track-result .top-info .btn-back {
+  width: 102px;
+  height: 40px;
+  border: 1px solid #00A0E3;
+  color: #00A0E3;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 20px;
+  outline: none;
+  line-height: 27px;
+}
+.trackorderresult .track-result .orderDelivered {
+  margin-top: 17px;
+}
+.trackorderresult .track-result .orderDelivered ul {
+  display: flex;
+  justify-content: space-between;
+}
+.trackorderresult .track-result .orderDelivered ul li:first-child small {
+  width: 95px;
+  display: inline-block;
+}
+.trackorderresult .track-result .orderDelivered ul li:last-child {
+  width: 565px;
+}
+.trackorderresult .track-result .orderDelivered ul li:last-child small {
+  width: 140px;
+  display: inline-block;
+}
+.trackorderresult .track-result .orderDelivered ul li h4 {
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.trackorderresult .track-result .orderDelivered ul li h4 small {
+  font-weight: 600;
+}
+.trackorderresult .track-result .orderDelivered ul li h4 strong {
+  margin-right: 10px;
+}
+.trackorderresult .track-result .orderDelivered ul li h4 span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.trackorderresult .track-result .orderDelivered ul li h4 span.address {
+  position: absolute;
+}
+.trackorderresult .track-info {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+  padding: 0 182px;
+  height: 418px;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.trackorderresult .track-info .track-details h4 {
+  text-align: center;
+  font-weight: 600;
+  font-family: "NunitoSans-Regular";
+  color: #2E2E2E;
+  padding-top: 30px;
+  padding-bottom: 23px;
+  font-size: 1.25rem;
+}
+.trackorderresult .track-info .track-details .progressbar-info .progress {
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #E9E9E9;
+}
+.trackorderresult .track-info .track-details .progressbar-info .progress .progress-bar {
+  background-color: #0F4A8A;
+  border-radius: 15px;
+}
+.trackorderresult .track-info .track-details .progressbar-info .progress .progress-bar::after {
+  content: url("../images/icon/done.svg");
+  position: absolute;
+  top: 5px;
+  left: 17%;
+  width: 20px;
+  height: 20px;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  padding: 0 20px;
+  position: relative;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul {
+  display: flex;
+  justify-content: space-between;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li ul {
+  display: flex;
+  justify-content: space-between;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li ul li img {
+  margin-right: 10px;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li ul li h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li ul li h4.incomplete {
+  color: #B6B5B5;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li ul li p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #B6B5B5;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 34%;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 65%;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
+.trackorderresult .track-info .track-details .progressbar-info .info ul li:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  left: 91%;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
+.trackorderresult .track-info .track-details .updates p {
+  margin-bottom: 19px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.trackorderresult .track-info .track-details .updates .table {
+  border: 1px solid #B6B5B5;
+  padding: 15px 33px;
+}
+.trackorderresult .track-info .track-details .updates .table table {
+  border: none;
+}
+.trackorderresult .track-info .track-details .updates .table table thead tr {
+  border: none;
+}
+.trackorderresult .track-info .track-details .updates .table table thead tr th {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 8px 10px 15px;
+  border-bottom: 1px solid #B6B5B5;
+  background-color: #fff;
+}
+.trackorderresult .track-info .track-details .updates .table table tbody tr {
+  border: none;
+}
+.trackorderresult .track-info .track-details .updates .table table tbody tr td {
+  font-size: 0.875rem;
+  padding: 17px 10px;
+  border: none;
+}
+.trackorderresult .track-info .track-details .updates .table table tbody tr td p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 32px;
+}
+.trackorderresult .track-info .track-details .updates .table table tbody tr td p small {
+  font-size: 0.75rem;
+}
+.trackorderresult .track-info .track-details .updates .table table th,
+.trackorderresult .track-info .track-details .updates .table table td {
+  text-align: left;
+}
+
+.trackorder .track-order table tbody tr td .addressInfo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tooltipWapper {
+  position: relative;
+}
+.tooltipWapper .tooltipInfo {
+  position: absolute;
+  top: 77%;
+  left: 50.8%;
+  transform: translate(-50%, -50%);
+  background: #E9F7FD;
+  color: #000000;
+  visibility: hidden;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 270px;
+  font-size: 0.875rem;
+  height: auto;
+  border: 1px solid #00A0E3;
+}
+.tooltipWapper .tooltipInfo h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: left;
+  line-height: 22px;
+}
+.tooltipWapper .tooltipInfo p {
+  font-size: 0.875rem;
+  line-height: 22px;
+  text-align: left;
+}
+
+.tooltip-arrowInfo {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #00A0E3;
+}
+
+.delivey-pincode-overlay .popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.delivey-pincode-overlay .popup-content {
+  width: 451px;
+  height: 277px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.delivey-pincode-overlay .popup-content .pop-body {
+  padding: 20px;
+  width: 450px;
+  height: 277px;
+  display: inline-block;
+  color: #000;
+  text-align: center;
+}
+.delivey-pincode-overlay .popup-content .pop-body h2 {
+  font-size: 35px;
+  color: #0F4A8A;
+  font-weight: 800;
+  padding: 1rem 0;
+}
+.delivey-pincode-overlay .popup-content .pop-body .input-group {
+  width: 330px;
+  margin: 0 auto;
+}
+.delivey-pincode-overlay .popup-content .pop-body .input-group button {
+  background: #0F4A8A;
+  color: #CFDBE8;
+}
+.delivey-pincode-overlay .popup-content .pop-body .close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 50px;
+  width: 26px;
+  height: 26px;
+  background: #0F4A8A;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.delivey-pincode-overlay .popup-content .pop-body .close span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  margin-left: -6px;
+}
+.delivey-pincode-overlay .popup-content .pop-body .close span::before {
+  content: "";
+  background: #fff;
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.delivey-pincode-overlay .popup-content .pop-body .close span::after {
+  content: "";
+  background: #fff;
+  width: 12px;
+  height: 2px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.becomefranchise .mainSec section.topSec {
+  background: url("../images/becomefranchisee/top-bg.png") no-repeat, #C5D9E3;
+  background-size: 100%;
+  width: 100%;
+  height: 350px;
+  background-position: center;
+}
+.becomefranchise .mainSec section.topSec figcaption {
+  margin-top: 121px;
+  width: 570px;
+  text-align: center;
+}
+.becomefranchise .mainSec section.topSec figcaption h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #0F4A8A;
+}
+.becomefranchise .mainSec section.topSec figcaption p {
+  background: url("../images/becomefranchisee/text-label.png") no-repeat;
+  background-size: 100% 100%;
+  width: 428px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  margin: auto;
+}
+.becomefranchise .mainSec section.middleSec {
+  position: relative;
+}
+.becomefranchise .mainSec section.middleSec .maincontent {
+  display: flex;
+  margin-top: 160px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec {
+  width: 50%;
+  padding: 60px 45px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec::after {
+  content: "";
+  background: #F9F5F5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec h5 {
+  font-size: 2.188rem;
+  color: #0F4A8A;
+  font-weight: bold;
+  padding-bottom: 25px;
+  margin: 0;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li p img {
+  width: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li p span {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li:nth-child(1)::before {
+  content: "";
+  background: url("../images/becomefranchisee/seo.svg") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 55px;
+  height: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li:nth-child(2)::before {
+  content: "";
+  background: url("../images/becomefranchisee/networking.svg") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 55px;
+  height: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li:nth-child(3)::before {
+  content: "";
+  background: url("../images/becomefranchisee/medal.svg") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 55px;
+  height: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .leftSec ul li:nth-child(4)::before {
+  content: "";
+  background: url("../images/becomefranchisee/furnitures.svg") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 55px;
+  height: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec {
+  width: 50%;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.21);
+  padding: 27px;
+  position: relative;
+  top: -130px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection h1 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0F4A8A;
+  margin-bottom: 20px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection p:nth-child(3) {
+  text-align: right;
+  font-size: 0.75rem;
+  color: #676666;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li {
+  width: 48%;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li label {
+  font-size: 0.875rem;
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li input,
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li select,
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li textarea {
+  border: 1px solid #C8C7C7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 10px 7.8px;
+  height: 45px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li select {
+  width: 55px;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li textarea {
+  height: auto;
+  width: 100%;
+  resize: none;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li:last-child {
+  width: 100%;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li:nth-child(3) {
+  display: flex;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li:nth-child(3) select {
+  width: 55px;
+  background: url(/_next/static/media/caret-down-solid.02bcf6b9.svg) no-repeat, #F9F9F9;
+  background-size: 12px;
+  background-position: top 11px right 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection form ul li:nth-child(3) input {
+  margin-top: 14px;
+  margin-left: 5px;
+  width: 125%;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection .submitBtn {
+  text-align: center;
+}
+.becomefranchise .mainSec section.middleSec .maincontent .rightSec .formSection .submitBtn button {
+  background: #0F4A8A;
+  color: #fff;
+  padding: 13px 42px;
+  font-size: 0.875rem;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.becomefranchise .mainSec section.lastSec {
+  background: #E9F7FD;
+}
+.becomefranchise .mainSec section.lastSec .contentSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 578px;
+}
+.becomefranchise .mainSec section.lastSec .contentSec .caption {
+  padding-left: 54px;
+}
+.becomefranchise .mainSec section.lastSec .contentSec .caption h5 {
+  font-size: 2.188rem;
+  color: #0F4A8A;
+  font-weight: bold;
+  padding-bottom: 25px;
+  margin: 0;
+}
+.becomefranchise .mainSec section.lastSec .contentSec .caption p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.becomefranchise .mainSec section.lastSec .contentSec .caption ul li {
+  font-size: 1.25rem;
+  color: #000000;
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 25px;
+  font-weight: 500;
+}
+.becomefranchise .mainSec section.lastSec .contentSec .caption ul li::before {
+  content: "";
+  background: url("../images/becomefranchisee/bluearrow.svg") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+.invoicePdf .app-main header {
+  display: none;
+}
+.invoicePdf .app-main footer {
+  display: none;
+}
+.invoicePdf .app-main .main-page {
+  padding: 0;
+  background-color: #FCFCFC;
+  padding: 20px 10px;
+  max-width: 1044px;
+  margin: 0 auto;
+}
+.invoicePdf .app-main .main-page .invoiceHeader {
+  background-color: #F9F9F9;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding: 20px 60px;
+}
+.invoicePdf .app-main .main-page .invoiceHeader ul {
+  display: flex;
+  align-items: center;
+}
+.invoicePdf .app-main .main-page .invoiceHeader ul li h4 {
+  font-size: 2.188rem;
+  color: #0F4A8A;
+  font-weight: bold;
+  padding: 0 167px;
+}
+.invoicePdf .app-main .main-page .orderDetails {
+  padding: 20px 10px;
+}
+.invoicePdf .app-main .main-page .orderDetails .addressInfo {
+  margin-bottom: 40px;
+}
+.invoicePdf .app-main .main-page .orderDetails .addressInfo ul {
+  display: flex;
+  justify-content: space-between;
+}
+.invoicePdf .app-main .main-page .orderDetails .addressInfo ul li h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000000;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .addressInfo ul li h6 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 22px;
+}
+.invoicePdf .app-main .main-page .orderDetails .addressInfo ul li p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 25px;
+  width: 388px;
+}
+.invoicePdf .app-main .main-page .orderDetails .scocialInfo {
+  margin-bottom: 30px;
+}
+.invoicePdf .app-main .main-page .orderDetails .scocialInfo ul {
+  display: flex;
+}
+.invoicePdf .app-main .main-page .orderDetails .scocialInfo ul li p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.invoicePdf .app-main .main-page .orderDetails .orderData {
+  padding: 10px;
+  border: 1px solid #BCC1C4;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+}
+.invoicePdf .app-main .main-page .orderDetails .orderData ul {
+  display: flex;
+  justify-content: space-between;
+}
+.invoicePdf .app-main .main-page .orderDetails .orderData ul li h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+}
+.invoicePdf .app-main .main-page .orderDetails .orderData ul li span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .details {
+  padding: 10px 12px;
+  border: 1px solid #BCC1C4;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+.invoicePdf .app-main .main-page .orderDetails .details h4 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+}
+.invoicePdf .app-main .main-page .orderDetails .details p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .details p.address {
+  line-height: 28px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails {
+  margin-top: 30px;
+  border-bottom: 1px solid #DBDBDB;
+  padding-bottom: 30px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table {
+  border-radius: 5px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table thead tr th {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #E9F7FD;
+  text-align: center;
+  line-height: 15px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table thead tr th.itemInfo {
+  width: 228px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table thead tr th:nth-child(5) {
+  width: 60px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table thead tr th:nth-child(7) {
+  width: 60px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table thead tr th:nth-child(11) {
+  width: 92px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tbody tr td {
+  background-color: #FEFFF9;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 10px 7px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tbody tr td .productInfo {
+  text-align: left;
+  padding: 1px 6px 20px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tbody tr td .productInfo p {
+  font-weight: bold;
+  color: #676666;
+  line-height: 18px;
+  text-align: left;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tbody tr td .productInfo p.prodName {
+  margin-top: 28px;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tfoot tr td {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 10px 0;
+  border: none;
+  background-color: #FEFFF9;
+}
+.invoicePdf .app-main .main-page .orderDetails .invoiceDetails table tfoot tr td span {
+  font-size: 12px;
+  font-weight: bold;
+}
+.invoicePdf .app-main .main-page .orderDetails .totalInfo {
+  text-align: right;
+  padding: 28px 28px 15px;
+  background-color: #FEFFF9;
+  border: 1px solid #DBDBDB;
+  border-top: none;
+}
+.invoicePdf .app-main .main-page .orderDetails .totalInfo ul {
+  display: inline-block;
+}
+.invoicePdf .app-main .main-page .orderDetails .totalInfo ul li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .totalInfo ul li p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 81px;
+}
+.invoicePdf .app-main .main-page .orderDetails .totalInfo ul li p span {
+  font-weight: 600;
+}
+.invoicePdf .app-main .main-page .orderDetails .wordAmt {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .signInfo {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 55px;
+}
+.invoicePdf .app-main .main-page .orderDetails .declaration {
+  margin-top: 60px;
+}
+.invoicePdf .app-main .main-page .orderDetails .declaration ul {
+  display: flex;
+  justify-content: space-between;
+}
+.invoicePdf .app-main .main-page .orderDetails .declaration ul li h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 32px;
+}
+.invoicePdf .app-main .main-page .orderDetails .declaration ul li p {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 486px;
+  line-height: 27px;
+}
+.invoicePdf .app-main .main-page .orderDetails .declaration ul li p.authSign {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: right;
+  margin-top: 50px;
+  padding-right: 25px;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress {
+  text-align: center;
+  border-bottom: 1px solid #DBDBDB;
+  padding: 25px 0;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress p.address {
+  margin-top: 10px;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress ul {
+  display: flex;
+  justify-content: center;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress ul li {
+  margin-right: 40px;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress ul li:last-child {
+  margin-right: 0;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress .info {
+  margin-top: 30px;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress .info p {
+  font-weight: 600;
+}
+.invoicePdf .app-main .main-page .orderDetails .footerAddress .info p strong {
+  font-weight: bold;
+}
+.invoicePdf .app-main .main-page .orderDetails .smallInfo {
+  padding-top: 15px;
+  text-align: center;
+}
+.invoicePdf .app-main .main-page .orderDetails .smallInfo small {
+  font-size: 0.75rem;
+  color: #676666;
+}
+
+.reviewHeading {
+  text-align: left;
+  padding: 2rem 0;
+  text-transform: capitalize;
+  font-size: 1.875rem;
+  color: #0F4A8A;
+  font-weight: 700;
+}
+
+.checkoutReview {
+  display: flex;
+  padding-bottom: 3.125rem;
+}
+.checkoutReview .left {
+  max-width: 956px;
+  width: 100%;
+  margin-right: 60px;
+}
+.checkoutReview .left .reviewDetails {
+  border: 1px solid #CBCBCB;
+  border-radius: 5px;
+  padding: 20px;
+}
+.checkoutReview .left .reviewDetails h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 32px;
+}
+.checkoutReview .left .reviewDetails h4 small {
+  font-weight: 400;
+}
+.checkoutReview .left .reviewDetails p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+.checkoutReview .left .reviewDetails .contactDetails {
+  margin-bottom: 30px;
+}
+.checkoutReview .left .reviewDetails .contactDetails ul {
+  display: flex;
+}
+.checkoutReview .left .reviewDetails .contactDetails ul li h6 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.checkoutReview .left .reviewDetails .contactDetails ul li span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.checkoutReview .left .reviewDetails .contactDetails ul li:last-child {
+  margin-left: 35px;
+}
+.checkoutReview .left .reviewDetails .shippingDetails {
+  margin-bottom: 30px;
+}
+.checkoutReview .left .reviewDetails .billingAdd {
+  margin-bottom: 30px;
+}
+.checkoutReview .left .reviewDetails .gstDetails ul {
+  display: flex;
+}
+.checkoutReview .left .reviewDetails .gstDetails ul li h6 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.checkoutReview .left .reviewDetails .gstDetails ul li span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.checkoutReview .left .reviewDetails .gstDetails ul li:last-child {
+  margin-left: 35px;
+}
+.checkoutReview .left .centerCheck {
+  text-align: center;
+  margin-top: 50px;
+}
+.checkoutReview .left .centerCheck .checkbox {
+  justify-content: center;
+}
+.checkoutReview .left .centerCheck .checkbox label {
+  font-family: "NunitoSans-Regular";
+  font-size: 0.785rem;
+  font-weight: 600;
+  color: #000000;
+}
+.checkoutReview .left .centerCheck .checkbox label a {
+  text-decoration: underline;
+  color: #0B2138;
+}
+.checkoutReview .left .centerCheck .checkbox .styled-checkbox:checked + label:before {
+  background-color: #0F4A8A;
+}
+.checkoutReview .left .centerCheck .checkbox .styled-checkbox:checked + label:after {
+  width: 3px;
+  height: 3px;
+}
+.checkoutReview .left .centerCheck .make-info .btn-primary {
+  width: 285px;
+  background-color: #0F4A8A;
+  color: #FFFFFF;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  height: 40px;
+  line-height: 32px;
+}
+.checkoutReview .left .centerCheck .make-info .btn-primary:hover {
+  color: #0F4A8A;
+  border: 1px solid #0F4A8A;
+}
+
+.shopByNewArrival .default-card {
+  justify-content: center;
+}
+
+.stand-contact .main-page {
+  padding-top: 0;
+}
+.stand-contact .main-page .contact-page {
+  margin: 6.5rem auto;
+}
+.stand-contact .stand-alon {
+  height: 200px;
+}
+.stand-contact .stand-alon .container a {
+  font-size: 170px;
+  line-height: 170px;
+}
+.stand-contact footer {
+  padding-top: 7px;
+}/*# sourceMappingURL=styles.css.map */

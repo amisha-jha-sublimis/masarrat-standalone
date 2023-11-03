@@ -1,0 +1,69 @@
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+:root {
+  --bs-body-bg: #fefefe;
+}
+
+.testimonalInfo {
+  background-image: url("../../../assets/images/testimonial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 35px 0 40px 0;
+}
+.testimonalInfo .testi-icon {
+  font-size: 26px;
+  margin-bottom: 22px;
+  color: #FFFFFF;
+}
+.testimonalInfo .inner-wrapper {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 14rem;
+  line-height: 30px;
+}
+.testimonalInfo .inner-wrapper .title {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.testimonalInfo .inner-wrapper .title span {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+.testimonalInfo .btn-primary {
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+.testimonalInfo .btn-primary span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0F4A8A;
+  text-transform: capitalize;
+}
+
+.carousel .control-dots .dot {
+  width: 16px !important;
+  height: 16px !important;
+  box-shadow: none !important;
+}
+
+.carousel .control-dots {
+  bottom: 24% !important;
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+  border: 3px solid #fff;
+  background: transparent;
+}
+
+.carousel .control-dots .dot {
+  opacity: 1 !important;
+}/*# sourceMappingURL=testimonial.css.map */

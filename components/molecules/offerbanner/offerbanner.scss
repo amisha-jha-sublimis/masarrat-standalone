@@ -1,0 +1,99 @@
+@import '../../../assets/Scss/variables';
+@import '../../../assets/Scss/mixins';
+
+.add-banner {
+    .add-bannerimage {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        position: relative;
+
+        figure {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        figcaption {
+            position: absolute;
+            right: 22%;
+            top: 7px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFFFFF;
+            text-align: center;
+
+            h4 {
+                font-size: 1.563rem;
+                color: #FFFFFF;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    border: 2px solid #ffff;
+                    width: 36px;
+                    top: 12px;
+                    left: -20px;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    border: 2px solid #ffff;
+                    width: 36px;
+                    top: 12px;
+                    right: -20px;
+                }
+            }
+
+            h2 {
+                font-size: 4.875rem;
+                font-weight: 800;
+                ;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                letter-spacing: 3px;
+            }
+
+            h6 {
+                font-size: 3.125rem;
+                font-weight: 500;
+                text-transform: capitalize;
+                color: #FCE900;
+            }
+
+            .rotate {
+                font-size: 1rem;
+                text-transform: uppercase;
+                position: absolute;
+                bottom: 45px;
+                left: -10px;
+                transform: rotate(270deg);
+                transform-origin: 0 0;
+            }
+
+            .btn-primary {
+                @include btnstyle;
+                background-color: #00A0E3;
+                margin-top: 0;
+                line-height: 50px;
+
+                span {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                    text-transform: capitalize;
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                &:hover {
+                    @include btnstyleHover;
+                    line-height: 50px;
+                    span {
+                        color: #0F4A8A;
+                    }
+                }
+            }
+        }
+    }
+}

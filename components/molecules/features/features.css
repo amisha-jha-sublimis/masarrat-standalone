@@ -1,0 +1,41 @@
+.features {
+  padding: 45px 0;
+}
+.features .container h1 {
+  text-align: center;
+  color: #0F4A8A;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+}
+.features .container p {
+  color: #000;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 10%;
+}
+.features .container p a {
+  text-decoration: underline;
+  color: #0377A8;
+  font-weight: 600;
+}
+.features .container .feat {
+  text-align: center;
+}
+.features .container .feat a {
+  display: inline-block;
+  margin: 0 2rem;
+  margin-bottom: 1rem;
+}
+.features .container .feat a img {
+  margin-bottom: 1rem;
+}
+.features .container .feat a span {
+  display: block;
+  font-family: "Poppins";
+  color: #000;
+  font-weight: 600;
+}/*# sourceMappingURL=features.css.map */

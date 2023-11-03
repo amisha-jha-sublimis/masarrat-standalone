@@ -1,0 +1,142 @@
+.my_profile h5 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0f4a8a;
+}
+.my_profile .my-setting.edit-details {
+  position: relative;
+  display: block;
+}
+.my_profile .my-setting h4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.my_profile .my-setting .form-row {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.my_profile .my-setting .form-row .form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.my_profile .my-setting .form-row .form-group .txtbox {
+  font-size: 0.875rem;
+  color: #676666;
+  font-family: "Montserrat", sans-serif;
+}
+.my_profile .my-setting .form-row .form-group .txtbox.form-control {
+  height: 40px;
+  width: 95%;
+}
+.my_profile .my-setting .form-row .form-group .txtbox.form-control::-moz-placeholder {
+  font-size: 0.875rem;
+  color: #676666;
+  font-family: "Montserrat", sans-serif;
+}
+.my_profile .my-setting .form-row .form-group .txtbox.form-control::placeholder {
+  font-size: 0.875rem;
+  color: #676666;
+  font-family: "Montserrat", sans-serif;
+}
+.my_profile .my-setting .form-row .form-group .txtbox.form-control:focus {
+  box-shadow: none;
+}
+.my_profile .my-setting .form-row .form-group .txtbox.form-control:disabled, .my_profile .my-setting .form-row .form-group .txtbox.form-control[readonly] {
+  background-color: #f9f9f9;
+}
+.my_profile .my-setting .form-row .form-group .form-select {
+  height: 40px;
+  font-size: 0.875rem;
+  color: #7F7F7F;
+  width: 300px;
+}
+.my_profile .my-setting .form-row .form-group .form-select:disabled, .my_profile .my-setting .form-row .form-group .form-select[readonly] {
+  background-color: #f9f9f9;
+}
+.my_profile .my-setting .form-row .form-group.mobile .cust-select {
+  display: flex;
+}
+.my_profile .my-setting .form-row .form-group.mobile .cust-select .lbl {
+  display: none;
+}
+.my_profile .my-setting .form-row .form-group.mobile .cust-select .form-select {
+  width: 70px;
+  background-position: right 0.25rem center;
+  box-shadow: none;
+  margin-right: 0.5rem;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+.my_profile .my-setting .form-row .form-group.mobile .cust-select .form-control {
+  width: 210px;
+}
+.my_profile .my-setting .form-row li {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2E2E2E;
+  width: 100%;
+}
+.my_profile .my-setting .form-row li:first-child, .my_profile .my-setting .form-row li:nth-child(2) {
+  margin-right: 0.8rem;
+}
+.my_profile .my-setting .form-row li .formMargin {
+  width: 100%;
+}
+.my_profile .my-setting .form-row li .form-group.other-field .form-control {
+  width: 377px;
+}
+.my_profile .my-setting .form-row li h4 {
+  margin-right: 1.425rem;
+}
+.my_profile .my-setting .btn-primary {
+  width: auto;
+  padding: 0em 2rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  background: #0f4a8a;
+  border: none;
+  line-height: 42px;
+  color: #FFF;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.my_profile .my-setting .btn {
+  margin: 1rem 1rem 0 0;
+  text-transform: capitalize;
+  box-shadow: none;
+  height: auto;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1px solid #0f4a8a;
+}
+.my_profile .my-setting .btn:hover {
+  border: 1px solid #0f4a8a;
+  color: #0f4a8a;
+  background-color: #FFF;
+}
+.my_profile .my-setting .unsubscribe-mail {
+  margin-top: 2rem;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 2rem;
+  margin-right: 6rem;
+  width: 377px;
+}
+.my_profile .my-setting .unsubscribe-mail h4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.my_profile .my-setting .unsubscribe-mail .form-group label {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+}/*# sourceMappingURL=myprofile.css.map */

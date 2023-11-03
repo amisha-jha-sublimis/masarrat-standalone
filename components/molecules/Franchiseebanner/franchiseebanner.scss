@@ -1,0 +1,43 @@
+@import '../../../assets/Scss/variables';
+@import '../../../assets/Scss/mixins';
+
+.banner{
+    .bannerimage{
+        margin-bottom: 40px;
+        position: relative;
+        figure{
+            position: relative;
+            img{
+                width: 100%;
+            }
+        }
+        figcaption{
+            position: absolute;
+            left: 17%;
+            top: 150px;
+            .btn-primary{
+                width: 167px;
+                @include btnstyle;
+                background-color: #FFFFFF;
+                margin-top: 20px;
+                line-height: 50px;
+                span{
+                    font-size: 1rem;
+                    font-weight: 600;
+                    color: #0F4A8A;
+                    text-transform: capitalize;
+                    font-family: 'Poppins', sans-serif;
+                }
+                &:hover{
+                    @include btnstyleHover;
+                    width: 167px;
+                    background-color: #0F4A8A;
+                    line-height: 50px;
+                    span{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        } 
+    }
+}

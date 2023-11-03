@@ -1,0 +1,75 @@
+.categories {
+  background-color: #e9f7fd;
+  padding: 45px 0;
+  text-align: center;
+}
+.categories h1 {
+  text-align: center;
+  color: #0F4A8A;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+.categories p {
+  color: #000;
+  line-height: 2;
+  text-align: center;
+}
+.categories p a {
+  text-decoration: underline;
+  color: #0377A8;
+  font-weight: 600;
+}
+.categories .inner-div {
+  margin: auto;
+  justify-content: center;
+}
+.categories .inner-div .card-div .card {
+  text-align: center;
+  padding: 1.25rem 1rem;
+  width: 200px;
+  height: 163px;
+  transition: 1s all ease-in-out;
+  overflow: hidden;
+}
+.categories .inner-div .card-div .card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  z-index: 9;
+}
+.categories .inner-div .card-div .card a img {
+  margin-bottom: 1rem;
+  width: 60px;
+  height: auto;
+}
+.categories .inner-div .card-div .card a span {
+  display: block;
+  font-family: "Poppins";
+  color: #000;
+  font-weight: 600;
+}
+.categories .inner-div .card-div .card:hover:after {
+  content: "";
+  background: #d0f1f8;
+  transform: translateX(0%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  transition: 1s all ease-in-out;
+}
+.categories .inner-div .card-div .card::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  transform: translateX(-100%);
+}/*# sourceMappingURL=categories.css.map */

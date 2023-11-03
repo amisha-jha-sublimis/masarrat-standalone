@@ -1,0 +1,133 @@
+.address-form .topheading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.address-form .topheading h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #043F7D;
+}
+.address-form .topheading h6 {
+  font-size: 14px;
+  color: #676666;
+  margin-top: auto;
+}
+.address-form .office-address form {
+  margin-bottom: 2rem;
+}
+.address-form .office-address form .form-row {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.address-form .office-address form .form-row .form-group {
+  margin-bottom: 1rem;
+  width: 32%;
+}
+.address-form .office-address form .form-row .form-group label {
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: $ColorBlack;
+  padding-bottom: 6px;
+}
+.address-form .office-address form .form-row .form-group .form-control {
+  border-radius: 5px;
+  border: 1px solid #B6B5B5;
+  height: 40px;
+  margin-right: 5px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+}
+.address-form .office-address form .form-row .form-group .form-control::-moz-placeholder {
+  font-size: 0.75rem;
+  color: #676666;
+}
+.address-form .office-address form .form-row .form-group .form-control::placeholder {
+  font-size: 0.75rem;
+  color: #676666;
+}
+.address-form .office-address form .form-row .form-group .form-control:disabled {
+  background-color: #E7E7E7;
+}
+.address-form .office-address form .form-row .form-group .form-control:focus {
+  box-shadow: none;
+}
+.address-form .office-address form .form-row .form-group p.form-error {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-top: 0.6rem;
+}
+.address-form .office-address form .form-row .form-group .form-select {
+  border-radius: 5px;
+  border: 1px solid #B6B5B5;
+  height: 40px;
+  font-size: 0.75rem;
+  color: #676666;
+  background-image: url("../../../assets/images/caret-down-solid.svg");
+  background-size: 12px;
+  background-position: top 9px right 6px;
+  font-family: "Montserrat";
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.address-form .office-address form .form-row .form-group .form-select::-moz-placeholder {
+  font-size: 0.75rem;
+  color: #7F7F7F;
+}
+.address-form .office-address form .form-row .form-group .form-select::placeholder {
+  font-size: 0.75rem;
+  color: #7F7F7F;
+}
+.address-form .office-address form .form-row:last-child {
+  margin-bottom: 1.5rem;
+}
+.address-form .office-address .address-review .addresses {
+  display: flex;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.address-form .office-address .address-review .addresses .address-box {
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+  padding: 1rem;
+  width: 30%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.address-form .office-address .address-review .addresses .address-box h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+.address-form .office-address .address-review .addresses .address-box p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23px;
+  margin-bottom: 1rem;
+}
+.address-form .office-address .address-review .addresses .address-box .address-span {
+  color: #0F4A8A;
+  line-height: 23px;
+}
+.address-form .office-address .address-review .addresses .address-box .address-span span:first-child {
+  margin-right: 0.5rem;
+}
+.address-form .office-address .address-review .addresses .address-box .address-span span:last-child {
+  margin-left: 0.5rem;
+}
+.address-form .office-address .address-review .addresses .address-box .address-span span {
+  font-weight: 400;
+  cursor: pointer;
+}
+.address-form .office-address .address-review .addresses .address-box .address-span span.or {
+  color: #E8E5E5;
+}/*# sourceMappingURL=addressform.css.map */

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.499" height="18.97" viewBox="0 0 24.499 18.97">
+  <g id="noun-cart-1150797" transform="translate(0.25 0.25)">
+    <path id="Path_5" data-name="Path 5" d="M138.8,88.286v-.16c0-.027,0-.027-.028-.053,0-.027,0-.027-.029-.053,0-.027-.029-.027-.029-.053s-.029-.027-.029-.053-.028-.027-.028-.027l-.057-.053c-.029,0-.029-.027-.057-.027s-.028-.027-.057-.027-.028-.027-.057-.027H119.54l-.743-2.8a.544.544,0,0,0-.543-.4h-2.886a.534.534,0,1,0,0,1.065h2.4l3.314,12.384a.544.544,0,0,0,.543.4h13.142a.581.581,0,0,0,.543-.373l3.428-9.588v-.08c.057-.053.057-.053.057-.08Zm-4.4,9.029H122.112l-2.286-8.523h17.628Z" transform="translate(-114.798 -84.557)" stroke="#000" stroke-width="0.5"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(14.999 14.72)" fill="none" stroke="#000" stroke-width="1.2">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.4" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(7.999 14.72)" fill="none" stroke="#000" stroke-width="1.2">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.4" fill="none"/>
+    </g>
+  </g>
+</svg>

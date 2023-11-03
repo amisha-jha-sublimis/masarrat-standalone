@@ -1,0 +1,16 @@
+.error-message {
+  color: #FF0D0D;
+  font-size: 11px;
+  position: absolute;
+  text-align: center !important;
+  display: flex;
+  font-weight: 600;
+  padding-top: 4px;
+}
+.err_block {
+  display: block;
+  text-align: center !important;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+}

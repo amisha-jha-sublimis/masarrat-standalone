@@ -1,0 +1,223 @@
+.my_profile {
+
+    h5 {
+        font-size: 30px;
+        font-weight: bolder;
+        color: #0f4a8a;
+    }
+
+    .my-setting {
+        &.edit-details {
+            position: relative;
+            display: block;
+            // padding-top: 1.5rem;
+        }
+
+        h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .form-row {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            justify-content: space-between;
+            align-items: center;
+        
+            .form-group {
+                label {
+                    // text-transform: uppercase;
+                    // font-size: 0.75rem;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                }
+
+                // .formRe {
+                //     padding-right: 10px;
+                // }
+                .txtbox{
+                    font-size: 0.875rem;
+                    color: #676666;
+                    font-family: 'Montserrat', sans-serif;
+                    &.form-control {
+                        // border-radius: 0;
+                        // border: 1px solid #B6B5B5;
+                        height: 40px;
+                        // width: 300px;
+                        width: 95%;
+    
+                        &::placeholder {
+                            font-size: 0.875rem;
+                            color: #676666;
+                            font-family: 'Montserrat', sans-serif;
+    
+                        }
+    
+                        // &:disabled {
+                        //     background-color: #E7E7E7;
+                        // }
+                        &:focus{
+                            box-shadow: none;
+                        }
+    
+                        &:disabled, &[readonly] {
+                            background-color: #f9f9f9;
+                        }
+                    }
+
+                }
+              
+                // p{
+                //     &.form-error{
+                //         color: red;
+                //         font-size: 0.8rem;
+                //         font-weight: 700;
+                //         padding-top: 0.6rem;
+                //     }
+                // }
+                
+
+                .form-select {
+                    // border-radius: 0;
+                    // border: 1px solid #B6B5B5;
+                    height: 40px;
+                    font-size: 0.875rem;
+                    color: #7F7F7F;
+                    width: 300px;
+                    // background-image: url(/summera-jewels/resources/images/icons/sort-down-solid.svg);
+
+                    &:disabled, &[readonly] {
+                        background-color: #f9f9f9;
+                    }
+                }
+
+                &.mobile {
+                    .cust-select {
+                        display: flex;
+                        // width: 300px;
+
+                        .lbl {
+                            display: none;
+                        }
+
+                        .form-select {
+                            width: 70px;
+                            background-position: right 0.25rem center;
+                            // border-right: 0;
+                            box-shadow: none;
+                            // border-top-right-radius: 0;
+                            // border-bottom-right-radius: 0;
+                            margin-right: .5rem;
+                            padding: .375rem 0.75rem .375rem .75rem;
+                        }
+
+                        // input {
+                        //     border-top-left-radius: 0;
+                        //     border-bottom-left-radius: 0;
+                        // }
+
+                        .form-control {
+                            width: 210px;
+                            // margin-left: 6px;
+                        }
+                    }
+
+                }
+            }
+ 
+            li {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #2E2E2E;
+                width: 100%;
+
+                &:first-child,&:nth-child(2) {
+                    margin-right: 0.8rem;
+                }
+                
+                .formMargin {
+                    width: 100%;
+                }
+
+                .form-group.other-field {
+                    // display: none;
+
+                    .form-control {
+                        width: 377px;
+                    }
+                }
+
+                h4 {
+                    margin-right: 1.425rem;
+                }
+
+
+            }
+        }
+
+        .btn-primary {
+            width: auto;
+            padding: 0em 2rem;
+            font-size: 0.875rem;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            // border-radius: 0px;
+            background: #0f4a8a;
+            border: none;
+            line-height: 42px;
+            color: #FFF;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+            // span {
+                // position: relative;
+                // z-index: 9;
+            // }
+        }
+
+        .btn {
+            margin: 1rem 1rem 0 0;
+            text-transform: capitalize;
+            box-shadow: none;
+            height: auto;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 30px;
+            border: 1px solid #0f4a8a;
+
+            &:hover{
+                border: 1px solid #0f4a8a;
+                color: #0f4a8a;
+                background-color: #FFF;
+            }
+        }
+
+        .unsubscribe-mail {
+            margin-top: 2rem;
+            border-top: 1px solid #dbdbdb;
+            padding-top: 2rem;
+            margin-right: 6rem;
+            width: 377px;
+
+            h4 {
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+            
+            .form-group {
+                label {
+                    text-transform: uppercase;
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

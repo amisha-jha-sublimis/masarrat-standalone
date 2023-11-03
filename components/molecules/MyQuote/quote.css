@@ -1,0 +1,16 @@
+h5 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  line-height: 37px;
+}
+
+.filterMonth .formMargin label {
+  width: 165px;
+}
+.filterMonth .formMargin select {
+  margin-left: 9px;
+  font-size: 0.875rem;
+  color: #030303;
+  font-weight: 500;
+  font-family: "Montserrat";
+}/*# sourceMappingURL=quote.css.map */
