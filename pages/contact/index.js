@@ -39,8 +39,6 @@ const Contact = () => {
 
     const handleStateChange = (name, value) => {
 
-        // console.log("handle State change", name, "value =", value);
-
         if (name === "fullName") {
             let check = String(value)
             if (alphabatesWithSpace(check)) {

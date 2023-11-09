@@ -29,7 +29,6 @@ export default ({ children, title = 'Next.js Ecommerce' }) => {
       <Head>
         <title>{ title }</title>
       </Head>
-      
       <header className={`stand-alon shadow`}>
         <div className='container'>
           <Link href="/" className="logo">
