@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-     "postbuild": "next-on-netlify"
+    "lint": "next lint"
+     
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
